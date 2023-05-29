@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    Home
-    <a href="/comics">Clicca qui</a>
+    {{ $comic->title }}
 @endsection
