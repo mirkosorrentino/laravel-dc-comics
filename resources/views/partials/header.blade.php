@@ -1,4 +1,5 @@
 <header>
+  <div class="container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">ArchiFumetto</a>
@@ -13,4 +14,5 @@
           </div>
         </div>
       </nav>
+  </div>
 </header>

@@ -10,7 +10,8 @@
 </head>
 <body>
     @include('partials.header')
-    
-    @yield('content')
+    <div class="ms_top-space">
+        @yield('content')
+    </div>
 </body>
 </html>

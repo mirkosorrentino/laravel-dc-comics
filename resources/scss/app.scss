@@ -21,11 +21,15 @@ a {
 .ms_home {
     width: 100%;
     height: 100vh;
-    padding-top: 60px;
 }
 
 header {
     position: fixed;
     background-color: gray;
     width: 100vw;
+    z-index: 999;
+}
+
+.ms_top-space {
+    padding-top: 60px;
 }

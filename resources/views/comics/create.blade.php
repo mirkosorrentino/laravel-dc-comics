@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+<div class="container">
     <form action="{{ route('comics.store') }}" method="POST">
         @csrf
         <div class="mb-3">
@@ -45,4 +46,5 @@
 
         <button type="submit" class="btn btn-primary">Invia</button>
     </form>
+</div>
 @endsection
