@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('head')
+{{ $comic->title }}
+@endsection
+
 @section('content')
     <h1 class="text-center text-uppercase">{{ $comic->title }}</h1>
     <h3 class="text-center">{{ $comic->series }}</h3>
