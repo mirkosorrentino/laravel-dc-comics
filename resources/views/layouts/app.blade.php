@@ -9,8 +9,8 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <div class="container">
-        @yield('content')
-    </div>
+    @include('partials.header')
+    
+    @yield('content')
 </body>
 </html>
